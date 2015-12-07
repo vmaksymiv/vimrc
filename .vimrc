@@ -1,21 +1,6 @@
 " don't try to be strictly vi-like
 set nocompatible
 
-"" Vundle plugin manager
-"set rtp+=~/.vim/bundle/Vundle.vim
-"call vundle#begin()
-"
-"" let Vundle manage Vundle, required
-"Plugin 'gmarik/Vundle.vim'
-"
-"" restructured text highlighting
-"Plugin 'Rykka/riv.vim'
-"
-"" is required for riv.vim
-"Plugin 'Rykka/clickable.vim'
-"
-"call vundle#end()
-
 " configure folding by pressing on space
 nnoremap <Space> za
 
@@ -55,9 +40,6 @@ let g:airline_symbols.branch = '⎇'
 
 "indent line symbol configuration
 let g:indentLine_char = '┆'
-
-"autocmd BufEnter * let &titlestring = ' ' . expand("%:t")
-"set title
 
 " make background dark, i.e black
 set background=dark
@@ -102,12 +84,6 @@ set nocursorline
 " Store a ton of history (default is 20)
 set history=1000
 
-"maximum number of changes that can be undone
-set undolevels=1000
-
-"maximum number lines to save for undo on a buffer reload
-set undoreload=10000
-
 "folding settings
 set foldmethod=indent
 " disabled by default
@@ -119,9 +95,6 @@ filetype plugin on
 
 " show line numbers
 set number
-
-" show title of the file in vim title bar
-"set title
 
 " Set status line format
 "set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
@@ -196,9 +169,6 @@ match ExtraWhitespace /\s\+$/
 "autocmd BufWritePre * :%s/\s\+$//e
 set splitright
 
-"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-"match OverLength /\%81v.\+/
-"
 
 "vimux bindings (!!! works with tmux >= 1.5)
 " Prompt for a command to run
