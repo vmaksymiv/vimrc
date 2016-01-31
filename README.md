@@ -5,6 +5,10 @@ cd $HOME
 ```
 ### get source
 ```
+git clone https://github.com/vmaksymiv/vimrc.git
+```
+or
+```
 git clone git@github.com:vmaksymiv/vimrc.git
 ```
 ### apply configuration
