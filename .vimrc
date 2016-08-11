@@ -80,7 +80,7 @@ set noswapfile
 
 "do not highlight cursor line
 set cursorline
-highlight CursorLine cterm=none ctermbg=black
+highlight CursorLine cterm=none ctermbg=LightYellow
 highlight Comment ctermbg=none ctermfg=red
 
 " Store a ton of history (default is 20)
