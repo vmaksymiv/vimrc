@@ -161,7 +161,6 @@ map <silent><C-p> :tabprevious<CR>
 let g:netrw_keepdir=0
 
 "let g:netrw_browse_split=3
-syntax on
 highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
 match ExtraWhitespace /\s\+$/
 
