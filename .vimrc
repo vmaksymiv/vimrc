@@ -42,7 +42,7 @@ let g:airline_symbols.branch = '⎇'
 let g:indentLine_char = '┆'
 
 " make background dark, i.e black
-set background=dark
+"set background=dark
 
 " show the current mode of the editor
 set showmode
@@ -79,7 +79,9 @@ set ch=2
 set noswapfile
 
 "do not highlight cursor line
-set nocursorline
+set cursorline
+highlight CursorLine cterm=none ctermbg=black
+highlight Comment ctermbg=none ctermfg=red
 
 " Store a ton of history (default is 20)
 set history=1000
