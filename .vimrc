@@ -54,9 +54,9 @@ set encoding=utf-8
 set t_Co=256
 
 " set color theme
-colorscheme default
+"colorscheme default
 "colorscheme desert
-"colorscheme relaxedgreen
+colorscheme relaxedgreen
 
 set guitablabel=%t
 
