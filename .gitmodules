@@ -19,6 +19,6 @@
 [submodule ".vim/bundle/supertab"]
 	path = .vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "Relaxed-Green"]
-	path = Relaxed-Green
+[submodule ".vim/bundle/Relaxed-Green"]
+	path = .vim/bundle/Relaxed-Green
 	url = git@github.com:vim-scripts/Relaxed-Green.git
