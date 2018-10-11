@@ -56,7 +56,7 @@ set t_Co=256
 " set color theme
 "colorscheme default
 "colorscheme desert
-colorscheme relaxedgreen
+colorscheme morning
 
 set guitablabel=%t
 
