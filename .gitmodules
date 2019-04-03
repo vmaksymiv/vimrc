@@ -21,4 +21,4 @@
 	url = https://github.com/ervandew/supertab.git
 [submodule ".vim/bundle/Relaxed-Green"]
 	path = .vim/bundle/Relaxed-Green
-	url = git@github.com:vim-scripts/Relaxed-Green.git
+	url = https://github.com/vim-scripts/Relaxed-Green.git
